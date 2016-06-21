@@ -34,7 +34,7 @@ class VersionedFileExtension extends DataExtension
             new GridFieldDataColumns(),
             new GridFieldPaginator(15),
             new GridFieldViewButton(),
-            //new GridFieldDeleteAction(),
+            new GridFieldDeleteAction(),
             new GridFieldDetailForm()
         );
 
